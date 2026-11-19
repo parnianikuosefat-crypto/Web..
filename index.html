@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LUMIÈRE | Perfume Collection</title>
+  <link rel="stylesheet" href="products.css">
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="header">
+  <a href="index.html" class="logo">LUMIÈRE<span>.</span></a>
+
+  <nav>
+    <a href="index.html" data-fa="خانه" data-en="Home">خانه</a>
+    <a href="products.html" class="active" data-fa="مجموعه عطرها" data-en="Collection">مجموعه عطرها</a>
+    <a href="#about" data-fa="درباره ما" data-en="About">درباره ما</a>
+    <a href="#contact" data-fa="تماس" data-en="Contact">تماس</a>
+  </nav>
+
+  <div class="actions">
+    <button id="languageBtn">EN</button>
+    <div class="cart">♡ <span id="cartCount">0</span></div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-content">
+    <span class="eyebrow">THE WORLD OF LUXURY</span>
+    <h1 data-fa="رایحه‌ای برای<br>به یاد ماندن" data-en="A SCENT<br>TO REMEMBER">
+      رایحه‌ای برای<br>به یاد ماندن
+    </h1>
+    <p data-fa="زیبایی را با رایحه‌ای خاص تجربه کنید." data-en="Experience beauty through an extraordinary fragrance.">
+      زیبایی را با رایحه‌ای خاص تجربه کنید.
+    </p>
+    <a href="#collection" class="gold-btn" data-fa="کشف مجموعه" data-en="EXPLORE COLLECTION">کشف مجموعه</a>
+  </div>
+  <div class="hero-image">
+    <img src="https://images.unsplash.com/photo-1541643600914-78b084683601?w=1000" alt="Luxury perfume">
+  </div>
+</section>
+
+<section class="intro" id="about">
+  <span>OUR PHILOSOPHY</span>
+  <h2 data-fa="هر رایحه، یک داستان" data-en="Every Scent Tells a Story">هر رایحه، یک داستان</h2>
+  <p data-fa="ما باور داریم عطر فقط یک رایحه نیست؛ بلکه امضای شخصیت و خاطره‌ای ماندگار است."
+     data-en="We believe perfume is more than a fragrance; it is a signature of personality and a lasting memory.">
+    ما باور داریم عطر فقط یک رایحه نیست؛ بلکه امضای شخصیت و خاطره‌ای ماندگار است.
+  </p>
+</section>
+
+<main id="collection" class="collection">
+  <div class="section-title">
+    <span>DISCOVER YOUR SCENT</span>
+    <h2 data-fa="مجموعه اختصاصی ما" data-en="Our Exclusive Collection">مجموعه اختصاصی ما</h2>
+  </div>
+
+  <div class="filters">
+    <input type="search" id="search" placeholder="جستجوی نام عطر...">
+    <button class="filter active" data-category="all" data-fa="همه" data-en="All">همه</button>
+    <button class="filter" data-category="women" data-fa="زنانه" data-en="Women">زنانه</button>
+    <button class="filter" data-category="men" data-fa="مردانه" data-en="Men">مردانه</button>
+    <button class="filter" data-category="unisex" data-fa="یونیسکس" data-en="Unisex">یونیسکس</button>
+  </div>
+
+  <div class="products-grid" id="productsGrid">
+
+    <article class="product-card" data-category="women" data-name="J'adore Dior">
+      <div class="product-image">
+        <img src="https://images.unsplash.com/photo-1594035910387-fea47794261f?w=700" alt="J'adore">
+        <span class="tag">BEST SELLER</span>
+      </div>
+      <div class="product-info">
+        <span>DIOR</span>
+        <h3>J'adore Eau de Parfum</h3>
+        <p data-fa="رایحه‌ای گل‌فام و درخشان" data-en="Radiant floral fragrance">رایحه‌ای گل‌فام و درخشان</p>
+        <strong>6,200,000 تومان</strong>
+        <button class="buy-btn" data-fa="افزودن به سبد خرید" data-en="ADD TO CART">افزودن به سبد خرید</button>
+      </div>
+    </article>
+
+    <article class="product-card" data-category="men" data-name="Sauvage Dior">
+      <div class="product-image">
+        <img src="https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=700" alt="Sauvage">
+      </div>
+      <div class="product-info">
+        <span>DIOR</span>
+        <h3>Sauvage Eau de Parfum</h3>
+        <p data-fa="رایحه‌ای قدرتمند و ماندگار" data-en="Powerful and lasting scent">رایحه‌ای قدرتمند و ماندگار</p>
+        <strong>7,400,000 تومان</strong>
+        <button class="buy-btn" data-fa="افزودن به سبد خرید" data-en="ADD TO CART">افزودن به سبد خرید</button>
+      </div>
+    </article>
+
+    <article class="product-card" data-category="women" data-name="Coco Chanel">
+      <div class="product-image">
+        <img src="https://images.unsplash.com/photo-1547887538-e3a2f32cb1cc?w=700" alt="Coco Chanel">
+      </div>
+      <div class="product-info">
+        <span>CHANEL</span>
+        <h3>Coco Mademoiselle</h3>
+        <p data-fa="لطیف، شیک و جذاب" data-en="Elegant, soft and charming">لطیف، شیک و جذاب</p>
+        <strong>5,800,000 تومان</strong>
+        <button class="buy-btn" data-fa="افزودن به سبد خرید" data-en="ADD TO CART">افزودن به سبد خرید</button>
+      </div>
+    </article>
+
+    <article class="product-card" data-category="unisex" data-name="Black Orchid">
+      <div class="product-image">
+        <img src="https://images.unsplash.com/photo-1590736969955-71cc94901144?w=700" alt="Black Orchid">
+      </div>
+      <div class="product-info">
+        <span>TOM FORD</span>
+        <h3>Black Orchid</h3>
+        <p data-fa="عمیق، گرم و مرموز" data-en="Deep, warm and mysterious">عمیق، گرم و مرموز</p>
+        <strong>8,100,000 تومان</strong>
+        <button class="buy-btn" data-fa="افزودن به سبد خرید" data-en="ADD TO CART">افزودن به سبد خرید</button>
+      </div>
+    </article>
+
+    <article class="product-card" data-category="men" data-name="Bleu de Chanel">
+      <div class="product-image">
+        <img src="https://images.unsplash.com/photo-1595425970377-c9703cf48b6d?w=700" alt="Bleu de Chanel">
+      </div>
+      <div class="product-info">
+        <span>CHANEL</span>
+        <h3>Bleu de Chanel</h3>
+        <p data-fa="خنک، مدرن و خاص" data-en="Fresh, modern and unique">خنک، مدرن و خاص</p>
+        <strong>6,900,000 تومان</strong>
+        <button class="buy-btn" data-fa="افزودن به سبد خرید" data-en="ADD TO CART">افزودن به سبد خرید</button>
+      </div>
+    </article>
+
+    <article class="product-card" data-category="unisex" data-name="Oud Wood">
+      <div class="product-image">
+        <img src="https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=700" alt="Oud Wood">
+      </div>
+      <div class="product-info">
+        <span>TOM FORD</span>
+        <h3>Oud Wood</h3>
+        <p data-fa="چوبی، گرم و لوکس" data-en="Woody, warm and luxurious">چوبی، گرم و لوکس</p>
+        <strong>9,200,000 تومان</strong>
+        <button class="buy-btn" data-fa="افزودن به سبد خرید" data-en="ADD TO CART">افزودن به سبد خرید</button>
+      </div>
+    </article>
+
+  </div>
+
+  <p id="emptyMessage" hidden data-fa="عطری پیدا نشد!" data-en="No perfume found!">عطری پیدا نشد!</p>
+</main>
+
+<section class="quote">
+  <span>THE ART OF PERFUME</span>
+  <h2 data-fa="یک عطر خوب، هزاران خاطره می‌سازد." data-en="A beautiful fragrance creates a thousand memories.">
+    یک عطر خوب، هزاران خاطره می‌سازد.
+  </h2>
+</section>
+
+<footer id="contact">
+  <h2>LUMIÈRE</h2>
+  <p data-fa="هنر انتخاب یک رایحه خاص" data-en="The Art of Choosing a Signature Scent">هنر انتخاب یک رایحه خاص</p>
+  <p>Instagram | Email | Contact</p>
+  <small>© 2026 LUMIÈRE. All Rights Reserved.</small>
+</footer>
+
+<script src="products.js"></script>
+</body>
+</html>
